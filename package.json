@@ -1,0 +1,39 @@
+{
+  "name": "voyaged-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "voyaged": "./bin/voyaged",
+    "voyaged-cli": "./bin/voyaged"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "images",
+    "bin",
+    "lib"
+  ],
+  "keywords": [
+    "cli",
+    "voyaged-cli",
+    "脚手架"
+  ],
+  "author": {
+    "name": "lingVoyaged",
+    "email": "lingdamowang2022@163.com"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "chalk": "^4.0.0",
+    "commander": "^9.0.0",
+    "download-git-repo": "^3.0.2",
+    "figlet": "^1.5.2",
+    "fs-extra": "^10.0.1",
+    "inquirer": "^8.2.1",
+    "ora": "^5.0.0"
+  },
+  "devDependencies": {}
+}
